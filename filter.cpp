@@ -9,8 +9,8 @@ using namespace std;
 int main(int argc, char** argv) 
 {
     string buf;
-    char match = '#';
-
+    char match;
+    cin >> match;
     while(getline(cin, buf)) 
     {
         if(buf[0] != match) 
